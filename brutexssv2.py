@@ -217,7 +217,7 @@ def brutexss(argv):
 										c = 1
 										total = total+1
 										progress = progress + 1
-										with open('vulneraveis.log','a') as file:
+										with open('vulnerables.log','a') as file:
                                                                                 	file.write("url: " +  site + "\n")
 	                                                                                file.write("parameter: " + pn + " -> payload: " + x + "\n")
         	                                                                        file.write("\n")
@@ -344,7 +344,7 @@ def brutexss(argv):
 									c = 1
 									total = total+1
 									progress = progress + 1
-									with open('vulneraveis.log','a') as file:
+									with open('vulnerables.log','a') as file:
 										file.write("url: " +  site + "\n")
 										file.write("parameter: " + pn + " -> payload: " + i + "\n")
 										file.write("\n")
